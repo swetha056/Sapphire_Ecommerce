@@ -94,6 +94,7 @@ html,body{height:100%;background:var(--navy-dark);color:var(--white);-webkit-fon
 
 .hero-left {
     max-width: 50%;
+    padding: 20px; /* added padding */
 }
 
 .hero-right img {
