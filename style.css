@@ -7,6 +7,16 @@
   --container-width: 1100px;
 }
 
+container_h{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_h img {
+    width: 200px;
+    height: auto;
+}
 /* Reset & base */
 *{box-sizing:border-box;margin:0;padding:0;font-family: "Poppins", sans-serif;}
 html,body{height:100%;background:var(--navy-dark);color:var(--white);-webkit-font-smoothing:antialiased;}
@@ -75,3 +85,19 @@ html,body{height:100%;background:var(--navy-dark);color:var(--white);-webkit-fon
 
 /* utilities */
 .muted{color:var(--muted);font-size:0.95rem;}
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero-left {
+    max-width: 50%;
+}
+
+.hero-right img {
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+}
